@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Madina Bashary Portfoloi</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      .container {
+        /* border: 2px solid darkorange; */
+        width: 100%;
+        margin: 20px auto;
+        overflow-x: hidden;
+      }
+      .section--links {
+        margin: 20px;
+        text-align: center;
+      }
+      .section--links h1 {
+        font-weight: bold;
+      }
+      .section--links h4 {
+        font-size: 1.4em;
+        margin-bottom: 20px;
+      }
+      .section--links a,
+      .section--links p {
+        font-size: 1.2em;
+        color: #222;
+        text-decoration: none;
+      }
+      .section--links ul {
+        display: none;
+        list-style: none;
+        margin-top: 30px;
+      }
+      .section--links li {
+        border-top: 1px solid darkorange;
+        width: 100%;
+        text-align: center;
+        padding: 12px;
+        color: darkorange;
+        transition: all 300ms ease-in-out;
+      }
+      .section--links ul:last-child {
+        border-bottom: 1px solid darkorange;
+      }
+      .section--links a {
+        text-decoration: none;
+        width: 100%;
+        font-size: 1.5em;
+        font-weight: bold;
+      }
+      .section--links li:hover {
+        background-color: darkorange;
+        color: #fff;
+        opacity: 0.9;
+        cursor: pointer;
+      }
+      .section--body {
+        margin: 20px;
+      }
+      .section--body h1 {
+        color: darkorange;
+        margin-bottom: 10px;
+      }
+      .sections {
+        margin-bottom: 20px;
+      }
+      .sections {
+        font-size: 1em;
+      }
+      .details tr td:first-child {
+        font-weight: bold;
+        padding: 10px 10px 10px 0;
+      }
+      .hidden {
+        display: none;
+      }
+      td img {
+        width: 30px;
+      }
+      .email--address {
+        font-size: 0.9em;
+      }
+      p {
+        font-size: 1.1em;
+        line-height: 1.3em;
+        text-indent: 20px;
+      }
+      .sections ul {
+        list-style: none;
+      }
+      .sections li {
+        margin-bottom: 15px;
+        line-height: 1.3em;
+      }
+      a {
+        text-decoration: none;
+      }
+      #projects table{
+        margin-bottom: 20px;
+      }
+      #projects table td:first-child {
+        font-size: 1.1em;
+      }
+      button {
+        margin: 20px;
+        background-color: darkorange;
+        padding: 15px 20px;
+        color: #fff;
+        font-size: 0.9em !important;
+        border: none;
+        border-radius: 34px;
+        transition: all 200ms ease-in-out;
+      }
+      button:hover {
+        opacity: 0.9;
+        cursor: pointer;
+      }
+
+      @media screen and (min-width: 900px) {
+        .hidden {
+          display: inline-block;
+        }
+        .container {
+          display: flex;
+        }
+        .section--links {
+          width: 25%;
+          margin: 30px;
+          position: fixed;
+        }
+        .section--body {
+          width: 75%;
+          margin-left: 35%;
+        }
+        .section--links ul {
+          display: block;
+        }
+        .email--address {
+          font-size: 1em;
+        }
+        .sections {
+          font-size: 1.2em;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="section--links">
+        <h1>Madina Bashary</h1>
+        <h4>Web Developer</h4>
+        <a href="">madinabashary@gmail.com</a>
+        <p style="font-size: 1.3em">+93783430712</p>
+        <ul class="links">
+          <a href="#profile"><li>Profile</li></a>
+          <a href="#about"><li>About Me</li></a>
+          <a href="#skills"><li>Skills</li></a>
+          <a href="#education"><li>Educations</li></a>
+          <a href="#works"><li>Work Experiences</li></a>
+          <a href="#courses"><li>Cources</li></a>
+          <a href="#languages"><li>Languages</li></a>
+          <a href="#projects"><li>Projects</li></a>
+        </ul>
+      </div>
+      <div class="section--body">
+        <div class="sections" id="profile">
+          <h1>Profile</h1>
+          <p>
+            An accomplished Front-End Web Developer with over 2-years proven
+            track record of delivering exceptional results in developing webpage
+            interfaces. Skills on Programming: Java, Python, HTML, CSS,
+            JavaScript, JQuery, Bootstrap, React-Js, MySQL, Data Structures &
+            Algorithms, IT Project Management, Writing Documentation, Project
+            Charter and Project Proposal for any IT Projects.
+          </p>
+        </div>
+        <div class="sections" id="about">
+          <h1>About Me</h1>
+          <table class="details">
+            <tr>
+              <td>Name:</td>
+              <td>Madina Bashary</td>
+            </tr>
+            <tr>
+              <td>F-name:</td>
+              <td>Abdul Bashir</td>
+            </tr>
+            <tr>
+              <td>Nationality:</td>
+              <td>Afghan</td>
+            </tr>
+            <tr>
+              <td>Marital status:</td>
+              <td>Single</td>
+            </tr>
+            <tr>
+              <td>Phone:</td>
+              <td>+93783430712</td>
+            </tr>
+            <tr>
+              <td>Email:</td>
+              <td class="email--address">madinabashary@gmail.com</td>
+            </tr>
+            <tr>
+              <td>D.O.B:</td>
+              <td>Jan 06, 2002</td>
+            </tr>
+            <tr>
+              <td>Address:</td>
+              <td>Mazar-i-Sharif, Afghanistan</td>
+            </tr>
+          </table>
+        </div>
+        <div class="sections" id="skills">
+          <h1>Skills</h1>
+          <table class="details">
+            <tr>
+              <td>Web Development</td>
+              <td>
+                <img
+                  src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/068/913/original/html-5.png?1677246631"
+                  alt="HTML 5"
+                />
+                <img
+                  src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/068/911/original/css3.png?1677246582"
+                  alt="CSS 3"
+                />
+                <img
+                  src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/068/914/original/javascript.png?1677246651"
+                  alt="javascript"
+                />
+                <img
+                  src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/068/915/original/jquery.png?1677246668"
+                  alt="jquery"
+                />
+                <img
+                  src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/068/910/original/bootstrap.png?1677246550"
+                  alt="bootstrap 4 & 5"
+                />
+                <img
+                  src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/068/917/original/logo512.png?1677246706"
+                  alt="React Js"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>Software Engineering</td>
+              <td>Documentation Writing</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Proposal Writing</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>SWOT Analysis</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Gantt Chart</td>
+            </tr>
+            <tr>
+              <td>Microsoft Office Package</td>
+              <td>
+                <img
+                  src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/068/920/original/microsoft-word-2019.png?1677246766"
+                  alt="Microsoft Word"
+                />
+                <img
+                  src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/068/918/original/microsoft-excel-2019.png?1677246726"
+                  alt="Microsoft Excel"
+                />
+                <img
+                  src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/068/919/original/microsoft-powerpoint-2019.png?1677246749"
+                  alt="Microsoft Powerpoint"
+                />
+              </td>
+              <!-- <td>Powerpoint</td> -->
+            </tr>
+            <tr>
+              <td>Typing</td>
+            </tr>
+            <tr>
+              <td>Problem Solving</td>
+            </tr>
+            <tr>
+              <td>Good Communication</td>
+            </tr>
+            <tr>
+              <td>Management</td>
+            </tr>
+            <tr>
+              <td>Responsibility</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="sections" id="education">
+          <h1>Educations</h1>
+          <ul>
+            <li>
+              <b
+                >Bachelor of Computer Science, Balkh University,
+                Mazar-I-Sharif</b
+              ><br />
+              Aug 2019 - Present <br />
+              With the grade A (95.67%)
+            </li>
+            <li>
+              <b>
+                Graduated | High School, Turabi High School, Mazar-I-Sharif</b
+              >
+              <br />
+              2017 - 2018 <br />
+              With the grade A (95.98%)
+            </li>
+            <li>
+              <b>
+                Graduated | Secondary School, Mazar-I-Sharif Afghan Turk Girls
+                High School
+              </b>
+              <br />
+              2014 - 2016
+            </li>
+          </ul>
+        </div>
+        <div class="sections" id="works">
+          <h1>Work Experiences</h1>
+          <ul>
+            <li>
+              <b> <big> Web Developer (Intern):</big></b> <br />
+              <b>Asre-Poya software & Website Development Company</b> <br />
+              Trainings for Designing & Developing Website Interfaces, Creating
+              Project Charter, Writing Project Proposal, and Documentation,
+              Project Testing & Debugging <br />
+              Aug 2020 – Apr 2021
+            </li>
+            <li>
+              <b><big>Computer Fundamentals Teacher:</big></b> <br />
+              Mawla-Ali Private School <br />
+              Mar 2019 – Jul 2019
+            </li>
+          </ul>
+        </div>
+        <div class="sections" id="courses">
+          <h1>Courses</h1>
+          <ul>
+            <li><b>SheCodes Web Development Workshop</b> | SheCodes.io</li>
+            <li>
+              <b>ReactJS</b> - Complete Guide for Front-end Development | EdYoda
+              Digital University, Udemy.com
+            </li>
+            <li>
+              <b>JavaScript for beginners:</b> Create 27 Projects from Scratch |
+              Bluelime Learning Solutions, Udemy.com
+            </li>
+            <li><b>Management Strategies</b> | Alison.com</li>
+            <li><b>Data Structures and Algorithms</b> | HackerRank.com</li>
+            <li>
+              <b>English Speaking Fluency:</b> The Ultimate English Course | Jan
+              Ekhteyari, Udemy.com
+            </li>
+          </ul>
+        </div>
+        <div class="sections" id="languages">
+          <h1>Languages</h1>
+          <table>
+            <tr>
+              <td width="150"><b>Persian / Dari : </b></td>
+              <td>Native Speaker</td>
+            </tr>
+            <tr>
+              <td><b>English : </b></td>
+              <td>Fluency</td>
+            </tr>
+            <tr>
+              <td><b>Turkish : </b></td>
+              <td>Intermediate</td>
+            </tr>
+            <tr>
+              <td><b>Pashto : </b></td>
+              <td>Intermediate</td>
+            </tr>
+          </table>
+        </div>
+        <div class="sections" id="projects">
+          <h1>Projects</h1>
+          <table>
+            <tr>
+              <td><b>1. Success Library</b></td>
+              <td>
+                <a target="_blank" href="https://success-library.netlify.app/"
+                  ><button>Launch Page</button></a
+                >
+              </td>
+            </tr>
+            <tr>
+              <td><b>2. Bouncing Ball</b></td>
+              <td>
+                <a
+                  target="_blank"
+                  href="https://my-bouncing-ball-game.netlify.app/"
+                  ><button>Launch Page</button></a
+                >
+              </td>
+            </tr>
+            <tr>
+              <td><b>3. Kylie Cosmetics</b></td>
+              <td>
+                <a target="_blank" href="https://kylie-cosmetics.netlify.app/"
+                  ><button>Launch Page</button></a
+                >
+              </td>
+            </tr>
+            <tr>
+              <td><b>4. Blue Sky Project</b></td>
+              <td>
+                <a target="_blank" href="https://blue-sky-project.netlify.app/"
+                  ><button>Launch Page</button></a
+                >
+              </td>
+            </tr>
+            <tr>
+              <td><b>5. JS Documentation</b></td>
+              <td>
+                <a
+                  target="_blank"
+                  href="https://javascript-technical-documentation.netlify.app/"
+                  ><button>Launch Page</button></a
+                >
+              </td>
+            </tr>
+            <tr>
+              <td><b>6. Analog Clock</b></td>
+              <td>
+                <a target="_blank" href="https://the-analog-clock.netlify.app/"
+                  ><button>Launch Page</button></a
+                >
+              </td>
+            </tr>
+            <tr>
+              <td><b>7. Quote of the Day</b></td>
+              <td>
+                <a target="_blank" href="https://change-quote.netlify.app/"
+                  ><button>Launch Page</button></a
+                >
+              </td>
+            </tr>
+            <tr>
+              <td><b>8. Weather App</b></td>
+              <td>
+                <a target="_blank" href="https://weather-app-hw.netlify.app/"
+                  ><button>Launch Page</button></a
+                >
+              </td>
+            </tr>
+          </table>
+
+          For reviewing my portfolio and my experience on Web Development see my
+          public GitHub Repositories | My Linked In Profile <br />
+          <a
+            href="https://github.com/madina-bashary?tab=repositories"
+            target="_blank"
+            ><img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/068/912/original/github.png?1677246605"
+              alt=""
+          /></a>
+
+          <a href="https://www.linkedin.com/in/madina-bashary">
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/068/916/original/linkedin.png?1677246685"
+              alt=""
+          /></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
